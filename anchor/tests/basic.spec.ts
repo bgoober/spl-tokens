@@ -10,7 +10,7 @@ describe('basic', () => {
 
   it('should run the program', async () => {
     // Add your test here.
-    const tx = await program.methods.greet().rpc();
+    const tx = await program.methods.initToken().rpc();
     console.log('Your transaction signature', tx);
   });
 });
